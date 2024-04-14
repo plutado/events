@@ -1,8 +1,8 @@
-import { List, Image } from "semantic-ui-react";
-import { Attendee } from "../../../app/types/event";
+import { List, Image } from 'semantic-ui-react';
+import { Attendee } from '../../../app/types/event';
 
 type Props = {
-  attendee: Attendee;
+  attendee: Attendee
 }
 
 export default function EventListAttendee({attendee}: Props) {
